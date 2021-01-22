@@ -2,23 +2,24 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Achref Mekni | Software Engineer', // e.g: 'Name | Developer'
+  lang: 'EN', // e.g: en, es, fr, jp
+  description: 'Welcome to My Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Achref Mekni',
+  subtitle: "I'am the Developer you need.",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'profile1.jpg',
+  paragraphOne:
+    'I am a Second Year Software Engineering student at the Budapest University of Technology and Economics.I have developed excellent analytical and leadership skills through my career. Experienced with all stages of the development cycle for projects and applications Well-versed in numerous programming languages including Python,Java,Lua,C++,JavaScript,HTML,CSS,MySQL.I am now looking further to develop and use my skills in a practical setting.',
   paragraphTwo: '',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
@@ -28,12 +29,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.jpg',
+    title: 'Robo-Friends',
+    info: 'it is a React Web App to List and search for cool Robots',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://achref-mekni.github.io/Robo-Friends/',
+    repo: 'https://github.com/Achref-Mekni/Robo-Friends.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -78,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/achref-mekni-b0a162166/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Achref-Mekni',
     },
   ],
 };
